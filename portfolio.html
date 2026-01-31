@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>My Portfolio</h1>
+
+    <p><strong>Name:</strong> User</p>
+    <p><strong>Email:</strong> <span id="userEmail"></span></p>
+
+    <h3>About Me</h3>
+    <p>I am a beginner web developer.</p>
+
+    <h3>Skills</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+
+    <h3>Projects</h3>
+    <p>Simple Login & Portfolio App</p>
+
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    const email = localStorage.getItem("userEmail");
+    if (!email) {
+      window.location.href = "index.html";
+    } else {
+      document.getElementById("userEmail").innerText = email;
+    }
+  </script>
+
+</body>
+</html>
