@@ -38,3 +38,35 @@ The project demonstrates basic usage of **HTML, CSS, JavaScript**, and **databas
 
 ## 🔹 Project Structure
 
+
+---
+
+## 🔹 Live Demo
+
+🔗 Deployed URL: *(Add your Vercel / Netlify link here)*
+
+---
+
+## 🔹 GitHub Repository
+
+🔗 Repository Link: *(This repository)*
+
+---
+
+## 🔹 Notes
+
+- Supabase is used as a backend service to handle authentication and user data storage.
+- This fulfills the requirement of **basic database integration** without requiring local backend setup.
+- Email confirmation is disabled for simplicity during development.
+
+---
+
+## 🔹 Author
+
+**Your Name**
+
+---
+
+## 🔹 License
+
+This project is created for educational and assignment purposes.
